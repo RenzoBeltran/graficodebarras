@@ -1,0 +1,28 @@
+
+<html ng-app="MyApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+       <!-- AngularJS library -->
+    <script  type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="fusioncharts.js"></script>
+
+    <script type="text/javascript" src="angular-fusioncharts.min.js"></script>
+
+   <!-- AngularJS library -->
+       <script type="text/javascript" src="plugin.js"></script>
+       <div ng-controller="MyController">
+           <div fusioncharts
+              width="600"
+              height="400"
+              type="column2d"
+              dataSource="{{myDataSource}}" >
+           </div>
+       </div>
+
+
+
+  </body>
+</html>

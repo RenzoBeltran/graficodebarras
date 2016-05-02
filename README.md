@@ -1,0 +1,2 @@
+# graficodebarras
+como mostrar grafico
